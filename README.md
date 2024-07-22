@@ -8,8 +8,8 @@ This is the repository of Chat-Map-Creator, supporting multiple outuput (e.g. op
 # Installation Steps
 1.Install pyproj, numpy ,setuptools==53.1.0,and osmread, python<=3.8
 
-2.run gaode code,use text input get latitude and longatude
+2.run gaode_return.py code,use text input get latitude and longatude
 
-3.convert coordination to osm file, then add default dummy value to imcomplete node 
+3.api_latitude_longitude_cen_to_osm.py convert coordination to osm file, then add_version_changeset_tonode add default dummy value to imcomplete node 
 
-4.convert osm to opendrive file, then you can use it 
+4.osm2xodr convert osm to opendrive file, then you can use it 

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenDRIVE>
+    <header revMajor="1" revMinor="4" name="" version="1" date="2019-02-18T13:36:12" north="67.27504434053992" south="0.0" east="57.657038352418375" west="0.0">
+    <geoReference><![CDATA[+proj=tmerc +lat_0=39.9088741 +lon_0=116.3971254 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs]]></geoReference>
+    </header>
+    <!-- Roads -->
+    
+        <road name="Road 1" length="36.326590951523215" id="1" junction="-1">
+            <link>
+                <predecessor elementType="junction" elementId="2"/>
+                <successor elementType="junction" elementId="4"/>
+            </link>
+        <type s="0.0" type="town">
+             <speed max="30" unit="mph"/>
+        </type>
+             <planView>
+            <geometry s="0" x="50.60295635924682" y="36.352334230404956" hdg="3.0151436258023976" length="35.37966800686557">
+                <arc curvature="0.001805422854241657"/>
+            </geometry>
+            <geometry s="35.37966800686557" x="15.3871709833582" y="39.69057273190173" hdg="3.0790188869974786" length="0.9469229446576439">
+                <line/>
+            </geometry>
+             </planView>
+
+        <elevationProfile>
+            <elevation s="0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+            <elevation s="35.37966800686557" a="0.0" b="0.0" c="0.0" d="0.0"/>
+        </elevationProfile>
+             <lanes>
+                <laneOffset s="0.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+                <laneSection s="0.0">
+                    <left>
+                        <lane id="1" type="driving" level="false">
+                                        <link>
+                                        </link>
+                                        <width sOffset="0.0" a="4.00e+00" b="0.0" c="0.00" d="0.00"/>
+                                        <roadMark sOffset="0.00" type="solid" material="standard" color="white" laneChange="none"/>
+                        </lane>
+                    </left>
+                    <center>
+                        <lane id="0" type="none" level="false">
+                            <roadMark sOffset="0.00" type="broken" material="standard" color="white" width="1.2500000000000000e-1" laneChange="none"/>
+                        </lane>
+                    </center>
+                    <right>
+                        <lane id="-1" type="driving" level="false">
+                                        <link>
+                                        </link>
+                                        <width sOffset="0.0" a="4.00e+00" b="0.0" c="0.00" d="0.00"/>
+                                        <roadMark sOffset="0.00" type="solid" material="standard" color="white" laneChange="none"/>
+                        </lane>
+                    </right>
+                </laneSection>
+            </lanes>
+        </road>
+        
+        <road name="JunctionConnection 1_to_1 lane 1_to_-1" length="13.455844122715678" id="3" junction="2">
+            <link>
+                <predecessor elementType="road" elementId="1" contactPoint="start"/>
+                <successor elementType="road" elementId="1" contactPoint="start"/>
+            </link>
+        <type s="0.0" type="town">
+             <speed max="30" unit="mph"/>
+        </type>
+             <planView>
+                        <geometry s="0" x="50.60295635924682" y="36.352334230404956" hdg="6.156736279392191" length="3.0">
+                            <arc curvature="-0.2617993877991494"/>
+                        </geometry>
+                        <geometry s="3.0" x="53.14125020113626" y="34.901873888240374" hdg="5.371338115994742" length="7.4558441227156775">
+                            <arc curvature="0.6320396326456823"/>
+                        </geometry>
+                        <geometry s="10.455844122715678" x="53.42343149127763" y="37.121548674862304" hdg="3.800541789199846" length="3.0">
+                            <arc curvature="-0.2617993877991494"/>
+                        </geometry>
+             </planView>
+
+        <elevationProfile>
+                        <elevation s="0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+                        <elevation s="3.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+                        <elevation s="10.455844122715678" a="0.0" b="0.0" c="0.0" d="0.0"/>
+        </elevationProfile>
+             <lanes>
+                <laneOffset s="0.0" a="0.0" b="-0.0" c="0.0" d="0.0"/>
+                <laneSection s="0.0">
+                     <center>
+                        <lane id="0" type="none" level="false">
+                            <roadMark sOffset="0.0000000000000000e+0" type="none" material="standard" color="yellow" width="1.2500000000000000e-1" laneChange="none"/>
+                        </lane>
+                    </center>
+                    <right>
+                        <lane id="-1" type="driving" level="false">
+                            <link>
+                                <predecessor id="1"/>
+                                <successor id="-1"/>
+                            </link>
+                            <width sOffset="0.0" a="4.00e+00" b="0.0" c="0.00" d="0.00"/>
+                            <roadMark sOffset="0.00" type="none" material="standard" color="white" laneChange="none"/>
+                        </lane>
+                    </right>
+                </laneSection>
+            </lanes>
+        </road>
+        
+        <road name="JunctionConnection 1_to_1 lane -1_to_1" length="13.45584412271571" id="5" junction="4">
+            <link>
+                <predecessor elementType="road" elementId="1" contactPoint="end"/>
+                <successor elementType="road" elementId="1" contactPoint="end"/>
+            </link>
+        <type s="0.0" type="town">
+             <speed max="30" unit="mph"/>
+        </type>
+             <planView>
+                        <geometry s="0" x="14.442101261052366" y="39.7497866078083" hdg="3.079018886997475" length="3.0">
+                            <arc curvature="-0.2617993877991494"/>
+                        </geometry>
+                        <geometry s="3.0" x="11.816398296114873" y="41.0352650292081" hdg="2.293620723600027" length="7.455844122715711">
+                            <arc curvature="0.6320396326456796"/>
+                        </geometry>
+                        <geometry s="10.45584412271571" x="11.676478380322667" y="38.80210474476014" hdg="0.7228243968051302" length="3.0">
+                            <arc curvature="-0.2617993877991494"/>
+                        </geometry>
+             </planView>
+
+        <elevationProfile>
+                        <elevation s="0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+                        <elevation s="3.0" a="0.0" b="0.0" c="0.0" d="0.0"/>
+                        <elevation s="10.45584412271571" a="0.0" b="0.0" c="0.0" d="0.0"/>
+        </elevationProfile>
+             <lanes>
+                <laneOffset s="0.0" a="-0.0" b="0.0" c="0.0" d="0.0"/>
+                <laneSection s="0.0">
+                     <center>
+                        <lane id="0" type="none" level="false">
+                            <roadMark sOffset="0.0000000000000000e+0" type="none" material="standard" color="yellow" width="1.2500000000000000e-1" laneChange="none"/>
+                        </lane>
+                    </center>
+                    <right>
+                        <lane id="-1" type="driving" level="false">
+                            <link>
+                                <predecessor id="-1"/>
+                                <successor id="1"/>
+                            </link>
+                            <width sOffset="0.0" a="4.00e+00" b="0.0" c="0.00" d="0.00"/>
+                            <roadMark sOffset="0.00" type="none" material="standard" color="white" laneChange="none"/>
+                        </lane>
+                    </right>
+                </laneSection>
+            </lanes>
+        </road>
+        <!-- nextRoad -->
+    <!-- Junctions -->
+    
+        <junction id="2" name="junction 2">
+                    <connection id="1" incomingRoad="1" connectingRoad="3" contactPoint="start">
+                        <laneLink from="1" to="-1"/>
+                    </connection>
+        </junction>
+        
+        <junction id="4" name="junction 4">
+                    <connection id="1" incomingRoad="1" connectingRoad="5" contactPoint="start">
+                        <laneLink from="-1" to="-1"/>
+                    </connection>
+        </junction>
+        <!-- nextJunction -->
+</OpenDRIVE>
+    

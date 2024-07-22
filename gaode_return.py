@@ -5,7 +5,7 @@ import time
 # 高德地址编码web-API
 def get_urls(add):
     url = "https://restapi.amap.com/v3/geocode/geo?address=" + str(add)
-    url = url + "&output=json&key=64b6ef3afac2ec44af6a93b50***"
+    url = url + "&output=json&key=64b6ef3afac2ec44af6a93b505657fe9"
     r = requests.get(url)
     res = json.loads(r.text)
     # 数据格式化;
@@ -18,5 +18,5 @@ def get_urls(add):
     # return ""
 
 if __name__ == '__main__':
-    get_urls("天府广场")
+    get_urls("天安门")
     
