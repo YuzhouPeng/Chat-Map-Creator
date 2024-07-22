@@ -4,7 +4,7 @@ from OSMParser.testing import TestEntity, _test_nodes, testSimpleRoad, test_3Way
 from OSMParser.osmParsing import parseAll,rNode, OSMWay,JunctionRoad, OSMWayEndcap, createOSMJunctionRoadLine, createOSMWayNodeList2XODRRoadLine
 from OSMParser.xodrWriting import startBasicXODRFile,fillNormalRoads,fillJunctionRoads
 
-osmPfad = '/media/test/DATA/opendrive_mapping/osm2xodr-master/versioned_osm_bbox_data_39.909187_116.397455_500.osm'
+osmPfad = './versioned_osm_bbox_data_30.548613_114.290288_500.osm'
 topographieKartenPfad = ''
 xodrPfad = osmPfad+'output.xodr'
 

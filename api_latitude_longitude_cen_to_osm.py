@@ -59,8 +59,8 @@ if __name__ == "__main__":
         # center_lat = float(input("Enter Latitude of center point: "))
         # center_lon = float(input("Enter Longitude of center point: "))
         # radius = float(input("Enter radius in meters: "))
-        center_lon =116.397455
-        center_lat =39.909187
+        center_lon =114.290288
+        center_lat =30.548613
         radius =500
         fetch_osm_bbox_data(center_lat, center_lon, radius)
     except ValueError as e:
