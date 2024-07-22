@@ -6,7 +6,7 @@ This is the repository of Chat-Map-Creator, supporting multiple outuput (e.g. op
 ![2024-07-22 10-02-34屏幕截图](https://github.com/user-attachments/assets/aa3bb70d-52fa-45c4-b4ae-281c307746e7)
 
 # Installation Steps
-1.Install pyproj, numpy and osmread, python<=3.8
+1.Install pyproj, numpy ,setuptools==53.1.0,and osmread, python<=3.8
 
 2.run gaode code,use text input get latitude and longatude
 
